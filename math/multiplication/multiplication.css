@@ -1,0 +1,76 @@
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  max-width: 800px;
+}
+.section {
+  margin-bottom: 40px;
+  padding: 10px;
+  border: 2px solid #c7c7c7;
+  background-color: #f5f5f5;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px;
+}
+.section h2 {
+  margin-top: 0;
+}
+.table {
+  display: flex;
+  flex-wrap: wrap;
+}
+label {
+  font-size: 18px;
+}
+.cell {
+  width: 145px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.cell input {
+  width: 40px;
+  height: 25px;
+  margin-left: 5px;
+  border-radius: 5px;
+  border: 1px solid #c7c7c7;
+}
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2846ff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0926e1;
+}
+
+.clear-button {
+  margin-left: 10px;
+  background-color: #f35d5d;
+}
+
+.clear-button:hover {
+  background-color: #d03939;
+}
+@media screen and (max-width: 500px) {
+  .cell {
+      width: 50%;
+  }
+}
