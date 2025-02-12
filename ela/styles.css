@@ -1,0 +1,104 @@
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    max-width: 800px;
+}
+.section {
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    border: 2px solid #c7c7c7;
+    background-color: #f5f5f5;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); 
+    border-radius: 5px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2846ff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0926e1;
+}
+
+.new-button {
+    margin-left: 10px;
+    background-color: #a247f2;
+}
+
+.new-button:hover {
+    background-color: #8b33d7;
+}
+@media screen and (max-width: 500px) {
+    .cell {
+        width: 50%;
+    }
+}
+a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: #2980b9;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#paragraph {
+  font-size: 18px;
+  line-height: 2;
+}
+
+#result {
+  font-size: 24px;
+  font-weight: bold;
+  color: forestgreen;
+}
+
+#instructions {
+  font-size: 16px;
+  font-style: italic;
+  margin: 20px 10px;
+}
+
+select {
+  padding: 2px;
+  font-size: 16px;
+  background-origin: content-box;
+  background-position: right -1em center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-sizing: border-box;
+  text-align-last:center;
+  border-radius: 8px;
+}
+
+.correct { 
+  background-color: lightgreen 
+}
+
+.incorrect { 
+  background-color: lightcoral; 
+}

@@ -1,1 +1,23 @@
-passage
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+      <h1>Fill in the Missing Words</h1>
+      <a href="../index.html">Back to Home</a>
+    </div>
+    <p id="instructions">Fill in the blanks with the correct words and check your answers below. If you want a new paragraph click the New Paragraph button. Good Luck!</p>
+    <div class="section">
+      <p id="paragraph"></p>
+      <button onclick="checkAnswers()">Check Answers</button>
+      <button onclick="loadNewParagraph()" class="new-button">New Paragraph</button>
+      <p id="result"></p>
+    </div>
+    <script src="passage-completion.js"></script>
+</body>
+</html>
