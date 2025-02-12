@@ -85,7 +85,7 @@ function checkAnswers() {
       }
   });
   
-  document.getElementById("result").innerText = `You got ${correctCount} out of 4 correct!`;
+  document.getElementById("result").innerText = `You got ${correctCount} out of 5 correct!`;
 }
 
 window.onload = loadNewParagraph;
